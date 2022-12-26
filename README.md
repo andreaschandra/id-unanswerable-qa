@@ -2,6 +2,11 @@
 
 Code and dataset for EMNLP 2022 paper titled ["IDK-MRC: Unanswerable Questions for Indonesian Machine Reading Comprehension"](https://arxiv.org/abs/2210.13778).
 
+## Notebooks
+Train IndoBERT to IDK-MRC [![Open In Collab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/andreaschandra/id-unanswerable-qa/blob/master/IDK_MRC_run_qa_indobert.ipynb) <br>
+Train XLM-R to IDK-MRC [![Open In Collab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/andreaschandra/id-unanswerable-qa/blob/master/IDK_MRC_run_qa_xlmr.ipynb) <br>
+My own dataset analysis [![Open In Collab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/andreaschandra/id-unanswerable-qa/blob/master/IDK_MRC_dataset_analysis.ipynb) <br>
+
 ## Dataset Description
 I(n)dontKnow-MRC (IDK-MRC) is an Indonesian Machine Reading Comprehension dataset that covers answerable and unanswerable questions. Based on the combination of the existing answerable questions in TyDiQA, the new unanswerable question in IDK-MRC is generated using a question generation model and human-written question. Each paragraph in the dataset has a set of answerable and unanswerable questions with the corresponding answer.
 
